@@ -1,0 +1,2 @@
+# 说明
+一种无方法和属性的[[interface]]，JDK 5之前 还未使用注解的时候使用marker interfaces 来标记一些类。比如[[Cloneable]]，[[Serializable]]，[[EventListener]]，[[RandomAccess]]，判读是否被标记，使用 instanceof Cloneable。但是比起注解还是功能比较单薄，所以5以后引入了注解[[Annotation]]。

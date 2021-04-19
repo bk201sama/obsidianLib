@@ -1,0 +1,2 @@
+# 简介
+是一个[[marker interface]]。通过 ObjectOutputStream，ObjectInputStream 序列化和反序列化。serialVersionUID是系统为我们提供辅助我们进行序列化和反序列化过程的,序列化的时候系统会把当前类的serialVersionUID写入序列化的文件中(也可能其他中介),然后反序列化的时候会检查serialVersionUID是否和当前类的serialVersionUID一致,如果一致才进行反序列化。类的静态变量和使用transient修饰的变量不参与序列化。
